@@ -1,0 +1,85 @@
+
+body{
+    background: #202824;
+    margin:0;
+    padding:0;
+    font-family: Roboto;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    color:#CDCDCD;
+    align-items: center;
+}
+nav{
+display:flex;
+justify-content: space-between;
+width: 500px;
+}
+a{
+    color:#CDCDCD;
+    text-decoration: none;
+
+    font-style: bold;
+     font-size: 14.12px;
+}
+li{
+    list-style:none;
+    
+
+}
+h2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 31.3834px;
+
+
+text-transform: uppercase;
+    color:#FFFFFF;
+}
+main{
+    text-align:center;
+    line-height:2px;
+
+}
+.memo{
+font-family: 'Lobster', cursive;
+font-style: normal;
+font-weight: 400;
+font-size: 168px;
+color: #FFFFFF
+}
+button{
+width: 177.13px;
+height: 37.54px;
+border-radius: 35.9692px;
+box-sizing: border-box;
+}
+.book-session-button{
+
+background: #F1D8C0;
+
+}
+.explore-button{
+    background-color:#202824;
+    color:#F1D8C0;
+    border: 1px solid #F1D8C0;
+}
+.camera{
+    width: 87%;
+    height: 512px;
+}
+a:hover{
+    color:#F1D8C0;
+}
+.book-session-button:hover{
+    color:#F1D8C0;
+    background-color:#202824;
+}
+.explore-button:hover{
+    color:black;
+    background-color:#F1D8C0;
+}
+
